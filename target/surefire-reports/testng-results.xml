@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[English
+(1527)
+Spanish
+(802)
+Russian
+(788)
+French
+(731)
+Portuguese (Portugal)
+(673)
+Arabic
+(594)
+German
+(589)
+Vietnamese
+(586)
+Italian
+(559)
+Chinese (China)
+(168)
+Korean
+(154)
+Portuguese (Brazil)
+(75)
+Japanese
+(69)
+Turkish
+(67)
+Persian
+(47)
+Chinese (Traditional)
+(43)
+Greek
+(24)
+Ukrainian
+(20)
+Thai
+(17)
+Portuguese
+(16)
+Hindi
+(14)
+Dutch
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Hungarian
+(10)
+Catalan
+(9)
+Javanese
+(8)
+Hebrew
+(7)
+Indonesian
+(7)
+Polish
+(7)
+Mongolian
+(6)
+Romanian
+(6)
+Slovak
+(6)
+Tamil
+(5)
+Czech
+(4)
+Serbian
+(4)
+Albanian
+(3)
+Bengali
+(3)
+Georgian
+(3)
+Swedish
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Croatian
+(2)
+Estonian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-27T18:41:24 IST" name="Surefire suite" finished-at="2021-07-27T18:42:54 IST" duration-ms="90097">
+    <groups>
+      <group name="Regression">
+        <method signature="FillingFormTest.clickForEnterpriseTest()[pri:1, instance:com.test.classes.FillingFormTest@7e6f74c]" name="clickForEnterpriseTest" class="com.test.classes.FillingFormTest"/>
+        <method signature="FillingFormTest.getDetailsTest()[pri:3, instance:com.test.classes.FillingFormTest@7e6f74c]" name="getDetailsTest" class="com.test.classes.FillingFormTest"/>
+        <method signature="FillingFormTest.openFormTest()[pri:2, instance:com.test.classes.FillingFormTest@7e6f74c]" name="openFormTest" class="com.test.classes.FillingFormTest"/>
+        <method signature="FillingFormTest.setDetailsTest()[pri:4, instance:com.test.classes.FillingFormTest@7e6f74c]" name="setDetailsTest" class="com.test.classes.FillingFormTest"/>
+        <method signature="LanguageLearningTest.languageSelectTest()[pri:6, instance:com.test.classes.LanguageLearningTest@dd05255]" name="languageSelectTest" class="com.test.classes.LanguageLearningTest"/>
+        <method signature="LanguageLearningTest.levelSelectTest()[pri:7, instance:com.test.classes.LanguageLearningTest@dd05255]" name="levelSelectTest" class="com.test.classes.LanguageLearningTest"/>
+        <method signature="LanguageLearningTest.searchLanguageCourseTest()[pri:5, instance:com.test.classes.LanguageLearningTest@dd05255]" name="searchLanguageCourseTest" class="com.test.classes.LanguageLearningTest"/>
+        <method signature="SearchCourseTest.checkFirstCourse()[pri:10, instance:com.test.classes.SearchCourseTest@6a78afa0]" name="checkFirstCourse" class="com.test.classes.SearchCourseTest"/>
+        <method signature="SearchCourseTest.checkSecondCourse()[pri:11, instance:com.test.classes.SearchCourseTest@6a78afa0]" name="checkSecondCourse" class="com.test.classes.SearchCourseTest"/>
+        <method signature="SearchCourseTest.enterCourseTest()[pri:8, instance:com.test.classes.SearchCourseTest@6a78afa0]" name="enterCourseTest" class="com.test.classes.SearchCourseTest"/>
+        <method signature="SearchCourseTest.selectLevelTest()[pri:9, instance:com.test.classes.SearchCourseTest@6a78afa0]" name="selectLevelTest" class="com.test.classes.SearchCourseTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2021-07-27T18:41:24 IST" name="Surefire test" finished-at="2021-07-27T18:42:54 IST" duration-ms="90097">
+      <class name="com.test.classes.FillingFormTest">
+        <test-method is-config="true" signature="InvokeBrowser()[pri:0, instance:com.test.classes.FillingFormTest@7e6f74c]" started-at="2021-07-27T18:41:24 IST" name="InvokeBrowser" finished-at="2021-07-27T18:41:31 IST" duration-ms="6630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method signature="clickForEnterpriseTest()[pri:1, instance:com.test.classes.FillingFormTest@7e6f74c]" started-at="2021-07-27T18:41:31 IST" name="clickForEnterpriseTest" finished-at="2021-07-27T18:41:41 IST" duration-ms="10403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickForEnterpriseTest -->
+        <test-method signature="openFormTest()[pri:2, instance:com.test.classes.FillingFormTest@7e6f74c]" started-at="2021-07-27T18:41:41 IST" name="openFormTest" finished-at="2021-07-27T18:41:42 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFormTest -->
+        <test-method signature="getDetailsTest()[pri:3, instance:com.test.classes.FillingFormTest@7e6f74c]" started-at="2021-07-27T18:41:42 IST" name="getDetailsTest" finished-at="2021-07-27T18:41:43 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetailsTest -->
+        <test-method signature="setDetailsTest()[pri:4, instance:com.test.classes.FillingFormTest@7e6f74c]" started-at="2021-07-27T18:41:43 IST" name="setDetailsTest" finished-at="2021-07-27T18:41:55 IST" duration-ms="12076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDetailsTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.classes.FillingFormTest@7e6f74c]" started-at="2021-07-27T18:41:55 IST" name="endTest" finished-at="2021-07-27T18:42:01 IST" duration-ms="6099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.classes.FillingFormTest -->
+      <class name="com.test.classes.LanguageLearningTest">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.test.classes.LanguageLearningTest@dd05255]" started-at="2021-07-27T18:42:01 IST" name="invokeBrowser" finished-at="2021-07-27T18:42:05 IST" duration-ms="4203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="searchLanguageCourseTest()[pri:5, instance:com.test.classes.LanguageLearningTest@dd05255]" started-at="2021-07-27T18:42:05 IST" name="searchLanguageCourseTest" finished-at="2021-07-27T18:42:11 IST" duration-ms="5518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLanguageCourseTest -->
+        <test-method signature="languageSelectTest()[pri:6, instance:com.test.classes.LanguageLearningTest@dd05255]" started-at="2021-07-27T18:42:11 IST" name="languageSelectTest" finished-at="2021-07-27T18:42:13 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[English
+(1527)
+Spanish
+(802)
+Russian
+(788)
+French
+(731)
+Portuguese (Portugal)
+(673)
+Arabic
+(594)
+German
+(589)
+Vietnamese
+(586)
+Italian
+(559)
+Chinese (China)
+(168)
+Korean
+(154)
+Portuguese (Brazil)
+(75)
+Japanese
+(69)
+Turkish
+(67)
+Persian
+(47)
+Chinese (Traditional)
+(43)
+Greek
+(24)
+Ukrainian
+(20)
+Thai
+(17)
+Portuguese
+(16)
+Hindi
+(14)
+Dutch
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Hungarian
+(10)
+Catalan
+(9)
+Javanese
+(8)
+Hebrew
+(7)
+Indonesian
+(7)
+Polish
+(7)
+Mongolian
+(6)
+Romanian
+(6)
+Slovak
+(6)
+Tamil
+(5)
+Czech
+(4)
+Serbian
+(4)
+Albanian
+(3)
+Bengali
+(3)
+Georgian
+(3)
+Swedish
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Croatian
+(2)
+Estonian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- languageSelectTest -->
+        <test-method signature="levelSelectTest()[pri:7, instance:com.test.classes.LanguageLearningTest@dd05255]" started-at="2021-07-27T18:42:13 IST" name="levelSelectTest" finished-at="2021-07-27T18:42:18 IST" duration-ms="4587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- levelSelectTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.classes.LanguageLearningTest@dd05255]" started-at="2021-07-27T18:42:18 IST" name="endTest" finished-at="2021-07-27T18:42:24 IST" duration-ms="5614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.classes.LanguageLearningTest -->
+      <class name="com.test.classes.SearchCourseTest">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.test.classes.SearchCourseTest@6a78afa0]" started-at="2021-07-27T18:42:24 IST" name="invokeBrowser" finished-at="2021-07-27T18:42:31 IST" duration-ms="7534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="enterCourseTest()[pri:8, instance:com.test.classes.SearchCourseTest@6a78afa0]" started-at="2021-07-27T18:42:31 IST" name="enterCourseTest" finished-at="2021-07-27T18:42:35 IST" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCourseTest -->
+        <test-method signature="selectLevelTest()[pri:9, instance:com.test.classes.SearchCourseTest@6a78afa0]" started-at="2021-07-27T18:42:35 IST" name="selectLevelTest" finished-at="2021-07-27T18:42:35 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLevelTest -->
+        <test-method signature="checkFirstCourse()[pri:10, instance:com.test.classes.SearchCourseTest@6a78afa0]" started-at="2021-07-27T18:42:35 IST" name="checkFirstCourse" finished-at="2021-07-27T18:42:41 IST" duration-ms="5525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFirstCourse -->
+        <test-method signature="checkSecondCourse()[pri:11, instance:com.test.classes.SearchCourseTest@6a78afa0]" started-at="2021-07-27T18:42:41 IST" name="checkSecondCourse" finished-at="2021-07-27T18:42:48 IST" duration-ms="7508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSecondCourse -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.classes.SearchCourseTest@6a78afa0]" started-at="2021-07-27T18:42:48 IST" name="endTest" finished-at="2021-07-27T18:42:54 IST" duration-ms="5893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.classes.SearchCourseTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

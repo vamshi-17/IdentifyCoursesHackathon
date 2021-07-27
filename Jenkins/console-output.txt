@@ -1,0 +1,311 @@
+Started by user Vamshi Durganala
+Running as SYSTEM
+Building in workspace C:\Users\Vamshi Krishna\.jenkins\workspace\CourseraTestJob
+Parsing POMs
+Established TCP socket on 63813
+[IdentifyCoursesHackathon] $ "C:\Program Files\Java\jdk1.8.0_291/bin/java" -cp "C:\Users\Vamshi Krishna\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Vamshi Krishna\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\CourseraTestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\Vamshi Krishna\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\CourseraTestMaven/conf/logging" jenkins.maven3.agent.Maven35Main "C:\Users\Vamshi Krishna\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\CourseraTestMaven" "C:\Users\Vamshi Krishna\.jenkins\war\WEB-INF\lib\remoting-4.7.jar" "C:\Users\Vamshi Krishna\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar" "C:\Users\Vamshi Krishna\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar" 63813
+<===[JENKINS REMOTING CAPACITY]===>���channel started
+Executing Maven:  -B -f C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\pom.xml clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< Hackathon:IdentifyCoursesHackathon >-----------------
+[INFO] Building IdentifyCoursesHackathon 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ IdentifyCoursesHackathon ---
+[INFO] Deleting C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ IdentifyCoursesHackathon ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ IdentifyCoursesHackathon ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ IdentifyCoursesHackathon ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ IdentifyCoursesHackathon ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ IdentifyCoursesHackathon ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+****************  Working with Test Scenario-1  *****************
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 20639
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 26, 2021 10:32:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Opening chrome browser.................
+***************  Working with Test Scenario-2  ***************
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 47379
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 26, 2021 10:34:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Opening chrome browser.................
+The languages available are: 
+English
+(1531)
+Spanish
+(805)
+Russian
+(791)
+French
+(735)
+Portuguese (Portugal)
+(676)
+Arabic
+(596)
+German
+(590)
+Vietnamese
+(588)
+Italian
+(561)
+Chinese (China)
+(168)
+Korean
+(154)
+Portuguese (Brazil)
+(74)
+Japanese
+(68)
+Turkish
+(67)
+Persian
+(47)
+Chinese (Traditional)
+(42)
+Greek
+(24)
+Ukrainian
+(20)
+Thai
+(17)
+Portuguese
+(16)
+Hindi
+(14)
+Dutch
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Hungarian
+(10)
+Catalan
+(9)
+Javanese
+(8)
+Hebrew
+(7)
+Indonesian
+(7)
+Polish
+(7)
+Mongolian
+(6)
+Romanian
+(6)
+Slovak
+(6)
+Tamil
+(5)
+Czech
+(4)
+Serbian
+(4)
+Albanian
+(3)
+Bengali
+(3)
+Georgian
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Croatian
+(2)
+Estonian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)
+Swedish
+(1)
+English
+(1531)
+Spanish
+(805)
+Russian
+(791)
+French
+(735)
+Portuguese (Portugal)
+(676)
+Arabic
+(596)
+German
+(590)
+Vietnamese
+(588)
+Italian
+(561)
+Chinese (China)
+(168)
+Korean
+(154)
+Portuguese (Brazil)
+(74)
+Japanese
+(68)
+Turkish
+(67)
+Persian
+(47)
+Chinese (Traditional)
+(42)
+Greek
+(24)
+Ukrainian
+(20)
+Thai
+(17)
+Portuguese
+(16)
+Hindi
+(14)
+Dutch
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Hungarian
+(10)
+Catalan
+(9)
+Javanese
+(8)
+Hebrew
+(7)
+Indonesian
+(7)
+Polish
+(7)
+Mongolian
+(6)
+Romanian
+(6)
+Slovak
+(6)
+Tamil
+(5)
+Czech
+(4)
+Serbian
+(4)
+Albanian
+(3)
+Bengali
+(3)
+Georgian
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Croatian
+(2)
+Estonian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)
+Swedish
+(1)
+The different levels :
+Intermediate
+Beginner
+Mixed
+Advanced
+***************  Test Scenario-2 completed successfully  ***************
+*************** Working with Test Scenario-3 ***************
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 36523
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 26, 2021 10:34:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Opening chrome browser.................
+First course name = Introduction to Web Development
+First course rating = 4.7
+First course duration = Approx. 22 hours to complete
+Second course name = Create a Resume and Cover Letter with Google Docs
+Second course rating = 4.7
+Second course duration = 2 hours
+*************** Test Scenario-3 completed successfully ***************
+**************** Scenario-1 completed successfully ****************
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 202.382 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[JENKINS] Recording test results
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ IdentifyCoursesHackathon ---
+[INFO] Building jar: C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\target\IdentifyCoursesHackathon-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ IdentifyCoursesHackathon ---
+[INFO] Installing C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\target\IdentifyCoursesHackathon-0.0.1-SNAPSHOT.jar to C:\Users\Vamshi Krishna\.m2\repository\Hackathon\IdentifyCoursesHackathon\0.0.1-SNAPSHOT\IdentifyCoursesHackathon-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\pom.xml to C:\Users\Vamshi Krishna\.m2\repository\Hackathon\IdentifyCoursesHackathon\0.0.1-SNAPSHOT\IdentifyCoursesHackathon-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:31 min
+[INFO] Finished at: 2021-07-26T10:35:51+05:30
+[INFO] ------------------------------------------------------------------------
+Waiting for Jenkins to finish collecting data
+[JENKINS] Archiving C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\pom.xml to Hackathon/IdentifyCoursesHackathon/0.0.1-SNAPSHOT/IdentifyCoursesHackathon-0.0.1-SNAPSHOT.pom
+[JENKINS] Archiving C:\Users\Vamshi Krishna\eclipse\IdentifyCoursesHackathon\target\IdentifyCoursesHackathon-0.0.1-SNAPSHOT.jar to Hackathon/IdentifyCoursesHackathon/0.0.1-SNAPSHOT/IdentifyCoursesHackathon-0.0.1-SNAPSHOT.jar
+channel stopped
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Did not find any matching files.
+Finished: SUCCESS
+{"mode":"full","isActive":false}
