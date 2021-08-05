@@ -41,7 +41,10 @@ public class SearchCourse extends BaseClass {
 	@FindBy(xpath = "//body/div[@id='__next']/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]")
 	public static WebElement FirstCourse;
 
-	@FindBy(xpath = "//*[@id=\"main\"]/div/div/div[1]/div[2]/div/div/div/div/div/ul/li[1]/div/div/div/div/div/div[2]/div[1]/h2")
+// 	@FindBy(xpath = "//*[@id=\"main\"]/div/div/div[1]/div[2]/div/div/div/div/div/ul/li[1]/div/div/div/div/div/div[2]/div[1]/h2")
+// 	public static WebElement CourseName1;
+	
+	@FindBy(xpath = "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/div[2]/h2[1]")
 	public static WebElement CourseName1;
 
 	@FindBy(xpath = "//*[@id=\"main\"]/div/div/div[1]/div[2]/div/div/div/div/div/ul/li[1]/div/div/div/div/div/div[2]/div[4]/div[1]/div[1]/div/span[1]")
