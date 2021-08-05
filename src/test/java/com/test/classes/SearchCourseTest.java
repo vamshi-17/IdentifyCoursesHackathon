@@ -60,7 +60,7 @@ public class SearchCourseTest {
 
 		
 		// Methods of the filling form class is called using the object of the class
-		homepage.home("Web developement course");
+		homepage.home("Web Development Course");
 		searchcourse.LanguageSelect();
 		
 
