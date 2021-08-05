@@ -117,6 +117,7 @@ public class SearchCourse extends BaseClass {
 
 		// Extract the name of the first course
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		System.out.println("Waiting for first course");
 		System.out.println("First course name = " + CourseName1.getText());
 		reportPass("First course name = " + CourseName1.getText());
 
